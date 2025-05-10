@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Mainwindow from "./components/mainwindow";
+import MainInterface from "./components/MainInterface";
 import Header from "./components/Header";
 import AudioPlayer from "./components/MusicPlayer2";
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <Mainwindow />
+      <MainInterface />
       <AudioPlayer />
     </>
   );
