@@ -1,4 +1,5 @@
 ﻿import React, { useState } from "react";
+import Renou1 from "./articles/Renou1.jsx";
 
 function OCArticleTitle() {
   const [titleSelected, setTitleSelected] = useState("00");
@@ -6,7 +7,7 @@ function OCArticleTitle() {
     setTitleSelected(event.target.value);
   }
   const articles = [
-    { id: "01", title: "欢迎页", content: "欢迎来到我的博客！" },
+    { id: "01", title: "魔法人偶·第一章", content: <Renou1 /> },
     { id: "02", title: "关于我", content: "我是一个前端开发者。" },
     { id: "03", title: "React 学习指南", content: "多写多练多思考。" },
   ];
